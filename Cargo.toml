@@ -1,0 +1,10 @@
+[workspace]
+members = [".", "injectable-macros"]
+
+[package]
+name = "injectable"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+injectable-macros = { version = "0.1.0", path = "injectable-macros" }
